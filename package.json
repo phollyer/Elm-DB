@@ -1,0 +1,14 @@
+{
+  "name": "elm-db",
+  "version": "1.0.0",
+  "description": "A package for working with IndexedDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elm-tooling": "^1.7.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "package",
+    "name": "phollyer/elm-db",
+    "summary": "A package for working with IndexedDB",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "JsStore.DB",
+        "JsStore.SQL",
+        "JsStore.Vendor",
+        "JsStore.Lang.Case",
+        "JsStore.Lang.Where",
+        "JsStore.Lang",
+        "JsStore.Schema",
+        "JsStore"
+    ],
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/json": "1.1.3 <= v < 2.0.0",
+        "elm-community/json-extra": "4.3.0 <= v < 5.0.0"
+    },
+    "test-dependencies": {}
+}
